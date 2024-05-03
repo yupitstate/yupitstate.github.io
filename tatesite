@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        #container {
+            position: relative;
+            width: 800px;
+            height: 450px;
+        }
+        .icon {
+            position: absolute;
+            cursor: pointer;
+        }
+        #music {
+            top: 100px;
+            left: 50px;
+        }
+        #videos {
+            top: 100px;
+            right: 50px;
+        }
+        #blog {
+            bottom: 100px;
+            left: 50px;
+        }
+        #github {
+            bottom: 100px;
+            right: 50px;
+        }
+        #video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <a href=li.sten.to/tatetucker""><img src="music_icon.png" alt="Music" class="icon" id="music"></a>
+        <a href="youtube.com/tatetucker"><img src="videos_icon.png" alt="Videos" class="icon" id="videos"></a>
+        <a href="https://sonshine.world"><img src="blog_icon.png" alt="Blog" class="icon" id="blog"></a>
+        <a href="https://github.com/yupitstate"><img src="github_icon.png" alt="GitHub" class="icon" id="github"></a>
+        <video controls autoplay id="video">
+            <source src="https://youtu.be/Aaymphr4lFo?si=sdOa97BvIcR3pr3_" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
